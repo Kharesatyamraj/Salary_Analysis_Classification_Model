@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Oct 17 18:58:12 2021
-
 @author: khare
 """
 ## Name- SATYAM RAJ KHARE
@@ -14,8 +12,8 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.preprocessing import StandardScaler 
 #Importing data
-train = pd.read_csv(r"C:/Users/khare/Downloads/ML_clasif_NaiveBay/assign\SalaryData_Train.csv")
-test = pd.read_csv(r"C:/Users/khare/Downloads/ML_clasif_NaiveBay/assign\SalaryData_Test.csv")
+train = pd.read_csv(r"\SalaryData_Train.csv")
+test = pd.read_csv(r"\SalaryData_Test.csv")
 
 
 # data preprocessing
